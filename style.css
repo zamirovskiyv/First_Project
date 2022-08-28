@@ -284,7 +284,7 @@
     font-size: 200%; /* Размер шрифта */
     border-bottom: 1px solid #e8e8e8; /* Параметры линии под текстом */
     font-weight: normal; /* Убираем жирное начертание */
-    padding-bottom: 10px; /* Расстояние от текста до линии */
+    padding-bottom: 1px; /* Расстояние от текста до линии */
 }
 
 .det_text {
@@ -293,10 +293,22 @@
 
     justify-content: flex-start;
     padding-left: 150px;
+    font-family: "Inter";
 }
 
 .det_arc_text {
     width: 700px;
+}
+
+p:first-child {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    /* line-height: 54px; */
+    /* padding-bottom: 20px; */
+    color: #2d3748;
+    /* color: #e61151; */
 }
 
 .det_header_text {
