@@ -339,6 +339,6 @@ p:first-child {
     color: #718096;
 }
 
-.qq {
-    width: 966px;
+a:hover {
+    cursor: pointer;
 }
